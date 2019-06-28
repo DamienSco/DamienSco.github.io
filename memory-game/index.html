@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Udacity" content="Student Project #2 - Memory Game">
+    <title>Matching Game</title>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="container">
+    <header>
+        <h1>Matching Game</h1>
+    </header>
+
+    <!-- Score panel -->
+    <section class="score-panel">
+    	<ul class="stars">
+    		<li><i class="fa fa-star"></i></li>
+    		<li><i class="fa fa-star"></i></li>
+    		<li><i class="fa fa-star"></i></li>
+    	</ul>
+
+        <!-- Moves counter  -->
+    	<span class="moves">0</span> Moves
+    
+        <!-- Timer -->
+        <span id="time-count">00:00</span> Timer
+    
+        <!-- Restart button -->
+        <div class="restart">
+    		<i class="fa fa-repeat"></i> Restart 
+    	</div>
+    </section>
+    
+    <!--  Deck of cards  --> 
+    <section>
+        <ul class="deck"></ul>
+    </section>
+
+  
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" class="cache">Open Modal</button>
+    
+    <!-- The Modal from https://www.w3schools.com/howto/howto_css_modals.asp  -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+    
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title">Congratulation!</h3>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h4>You dit it!</h4>
+          <span class="time-stat"></span><br>
+          <span class="moves-stat"></span>
+          <hr>
+          <h4>Number of Star(s) collected :</h4>
+          <span class="star-stat"></span><br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal"><i class="fa fa-repeat"></i> Play Again</button>
+        </div>
+      </div>
+    </div>
+
+ <script src="js/app.js"></script>
+</body>
+</html>
