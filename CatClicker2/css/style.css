@@ -1,0 +1,50 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+	/*Header part*/
+.title-description {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.title-thin {
+	font-size: 60px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 200;
+}
+
+hr {
+	border-top: 3px solid;
+	color: #7d97ad;
+}
+	/*Main design*/
+
+.banner {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.text-muted {
+	color: #7d97ad;
+	font-size: 40px;
+	padding-bottom: 5px;
+}
+.text-uppercase {
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 10px;
+}
+	/*Footer*/
+.footer {
+	font-size: 60px;
+}
