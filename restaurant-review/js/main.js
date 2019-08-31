@@ -27,7 +27,7 @@ fetchNeighborhoods = () => {
 }
 
 /**
- * Set neighborhoods HTML.
+ * Set neighborhoods HTML.containers 
  */
 fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
   const select = document.getElementById('neighborhoods-select');
